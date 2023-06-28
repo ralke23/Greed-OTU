@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 1942319386908416228, guid: 54eba66ce4c99784c9bc8796c90e8b87,
         type: 3}
       propertyPath: m_overflowMode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1942319386908416228, guid: 54eba66ce4c99784c9bc8796c90e8b87,
         type: 3}
@@ -331,12 +331,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1353897697054532353}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &5587770892975569446 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6863981495585134887, guid: 014aaf97446bcff42a2a92203c16e73b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1353897697054532353}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1220622475735001432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +366,12 @@ MonoBehaviour:
   _image: {fileID: 4725715291100061620}
   _nameLabel: {fileID: 1292274396621372721}
   _healthBar: {fileID: 9020633867999755360}
+--- !u!224 &5587770892975569446 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6863981495585134887, guid: 014aaf97446bcff42a2a92203c16e73b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1353897697054532353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2888205911674329181
 PrefabInstance:
   m_ObjectHideFlags: 0

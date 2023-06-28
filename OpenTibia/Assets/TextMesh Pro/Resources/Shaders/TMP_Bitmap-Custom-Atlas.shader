@@ -1,8 +1,9 @@
-Shader "TextMeshPro/Bitmap Custom Atlas" {
+/// Changes name of character
+Shader "TextMeshPro/Bitmap" {
 
 Properties {
-	_MainTex		("Font Atlas", 2D) = "white" {}
-	_FaceTex		("Font Texture", 2D) = "white" {}
+	_MainTex		("Font Atlas", 2D) = "black" {}
+	_FaceTex		("Font Texture", 2D) = "black" {}
 	_FaceColor		("Text Color", Color) = (1,1,1,1)
 
 	_VertexOffsetX	("Vertex OffsetX", float) = 0
